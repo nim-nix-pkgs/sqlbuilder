@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-sqlbuilder-v0_3_1.flake = false;
+  inputs.src-sqlbuilder-v0_3_1.ref   = "refs/tags/v0.3.1";
   inputs.src-sqlbuilder-v0_3_1.owner = "ThomasTJdev";
-  inputs.src-sqlbuilder-v0_3_1.ref   = "v0_3_1";
   inputs.src-sqlbuilder-v0_3_1.repo  = "nim_sqlbuilder";
   inputs.src-sqlbuilder-v0_3_1.type  = "github";
   
